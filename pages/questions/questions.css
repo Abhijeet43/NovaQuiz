@@ -1,0 +1,143 @@
+.main-section {
+  margin: auto;
+  max-width: 1380px;
+  padding: 0 1.5rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.questions-section {
+  width: 40rem;
+}
+
+.questions-header {
+  width: 100%;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-title {
+  position: relative;
+  font-size: 3rem;
+  color: var(--lynx-gray);
+  text-align: center;
+  font-weight: 700;
+  line-height: 5.5rem;
+  margin: 2.5rem 0;
+  width: fit-content;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  background: var(--primary-color);
+  left: 50%;
+  bottom: 0;
+  height: 0.4rem;
+  border-radius: 0.25rem;
+  width: 8rem;
+  transform: translateX(-50%);
+}
+
+/* TIMER */
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 14.5rem;
+  height: 4.5rem;
+  background-color: var(--lynx-purple-color);
+  border: 0.1rem solid var(--primary-color);
+  border-radius: 0.3rem;
+  padding: 0 0.8rem;
+}
+
+.timer-text {
+  font-weight: 600;
+  font-size: 1.7rem;
+  user-select: none;
+}
+
+.timer-sec {
+  font-size: 1.8rem;
+  background: #343a40;
+  color: var(--secondary-color);
+  height: 3rem;
+  width: 4rem;
+  text-align: center;
+  line-height: 3rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #343a40;
+  user-select: none;
+}
+
+/* QUESTIONS */
+.que-text {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.option-list {
+  padding: 2rem 0;
+  display: block;
+}
+
+.option {
+  font-size: 1.8rem;
+  border: 0.1rem solid var(--primary-color);
+  border-radius: 0.25rem;
+  padding: 0.8rem 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.option:hover {
+  background: var(--lynx-purple-color);
+  color: var(--primary-color);
+}
+
+.option:last-child {
+  margin-bottom: 0;
+}
+
+/* SECTION FOOTER */
+.question-footer {
+  width: 100%;
+  padding: 0.2rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.next-btn,
+.prev-btn {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.next-btn:hover,
+.prev-btn:hover {
+  text-decoration: underline;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1025px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  html {
+    font-size: 50%;
+  }
+}
