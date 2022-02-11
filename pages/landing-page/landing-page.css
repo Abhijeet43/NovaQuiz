@@ -71,15 +71,17 @@
   font-size: 1.5rem;
 }
 
-.card-footer button {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+.quiz-btn {
+  display: block;
   width: 100%;
   max-width: 100%;
+  font-size: 1.8rem;
+  color: var(--secondary-color);
   padding: 1rem;
+  text-align: center;
 }
 
-.card-footer button:hover {
+.quiz-btn:hover {
   filter: brightness(110%);
 }
 
