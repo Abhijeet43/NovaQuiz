@@ -1,0 +1,16 @@
+:root {
+  /* font variable */
+  --default-font: "Montserrat", sans-serif;
+
+  /* theme colors */
+  --primary-color: #7245b6;
+  --secondary-color: #f3f4f6;
+  --success-color: #109d48;
+  --danger-color: #d63030;
+
+  --lynx-purple-color: rgb(216 191 216 / 40%);
+  --black-color: #222;
+  --purple-color: #633f99;
+  --lynx-gray: #555;
+  --orange-color:#ff523b;
+}
