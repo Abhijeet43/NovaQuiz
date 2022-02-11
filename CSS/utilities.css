@@ -18,3 +18,19 @@
 .btn-primary {
   background: var(--primary-color);
 }
+
+/* colors */
+
+.highlight {
+  color: var(--primary-color);
+}
+
+.correct-answer {
+  color: var(--dark-green-color);
+  background-color: var(--light-green-color);
+}
+
+.wrong-answer {
+  color: var(--dark-red-color);
+  background-color: var(--light-red-color);
+}

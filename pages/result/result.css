@@ -1,0 +1,113 @@
+.main-section {
+  margin: auto;
+  max-width: 1380px;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.questions-section {
+  width: 50rem;
+  margin-bottom: 3rem;
+  border-bottom: 0.3rem solid var(--lynx-gray);
+}
+
+.questions-section:last-child {
+  border: none;
+}
+
+.questions-header {
+  width: 100%;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.header-text {
+  font-size: 3rem;
+}
+
+.section-title {
+  position: relative;
+  font-size: 3rem;
+  color: var(--lynx-gray);
+  text-align: center;
+  font-weight: 700;
+  line-height: 5.5rem;
+  margin-top: 9rem;
+  width: fit-content;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  background: var(--primary-color);
+  left: 50%;
+  bottom: 0;
+  height: 0.4rem;
+  border-radius: 0.25rem;
+  width: 8rem;
+  transform: translateX(-50%);
+}
+
+/* QUESTIONS */
+.que-text {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.option-list {
+  padding: 2rem 0;
+  display: block;
+}
+
+.option {
+  font-size: 1.8rem;
+  border: 0.1rem solid var(--primary-color);
+  border-radius: 0.25rem;
+  padding: 0.8rem 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.option:last-child {
+  margin-bottom: 0;
+}
+
+/* ICONS */
+.check {
+  color: var(--dark-green-color);
+}
+
+.cross {
+  color: var(--dark-red-color);
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1025px) {
+  html {
+    font-size: 100%;
+  }
+
+  .questions-section {
+    width: 45rem;
+  }
+}
+
+@media (max-width: 540px) {
+  html {
+    font-size: 50%;
+  }
+
+  .questions-section {
+    width: 40rem;
+  }
+
+  .section-title {
+    margin-top: 12rem;
+  }
+}
