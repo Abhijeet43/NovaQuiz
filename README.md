@@ -69,13 +69,13 @@
 
 Following screens are used to build NovaQuiz.
 
-- [Homepage](https://nova-quiz-home.netlify.app/pages/landing-page/landing-page.html.html)
+- [Homepage](https://nova-quiz-home.netlify.app/pages/landing-page/landing-page.html)
 
-- [Rules](https://nova-quiz-home.netlify.app/pages/rules/rules.html.html)
+- [Rules](https://nova-quiz-home.netlify.app/pages/rules/rules.html)
 
-- [Questions](https://nova-quiz-home.netlify.app/pages/questions/questions.html.html)
+- [Questions](https://nova-quiz-home.netlify.app/pages/questions/questions.html)
 
-- [Result](https://nova-quiz-home.netlify.app/pages/result/result.html.html)
+- [Result](https://nova-quiz-home.netlify.app/pages/result/result.html)
 
 To look at the Live Pages of each screen visit [NovaQuiz](https://nova-quiz-home.netlify.app/) or click on above links.
 
