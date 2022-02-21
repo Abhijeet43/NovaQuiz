@@ -14,7 +14,7 @@
 
 #### Questions Page:
 
-![Questions Page](/assets/images/questions.png)
+![Questions Page](/assets/images/questions.PNG)
 
 #### Result Page:
 
@@ -57,7 +57,7 @@
 
 2.  Here you see the rules of the particular quiz.
 
-3.  Navigate to the Quiz using Next and Previous Links.
+3.  Navigate through different Questions using Next and Previous Links.
 
 4.  Each Quiz consist of a timer, the quiz must be submitted within that time period only.
 
@@ -69,13 +69,13 @@
 
 Following screens are used to build NovaQuiz.
 
-- [Homepage](https://nova-quiz-home.netlify.app/pages/landing-page/landing-page.html.html)
+- [Homepage](https://nova-quiz-home.netlify.app/pages/landing-page/landing-page.html)
 
-- [Rules](https://nova-quiz-home.netlify.app/pages/rules/rules.html.html)
+- [Rules](https://nova-quiz-home.netlify.app/pages/rules/rules.html)
 
-- [Questions](https://nova-quiz-home.netlify.app/pages/questions/questions.html.html)
+- [Questions](https://nova-quiz-home.netlify.app/pages/questions/questions.html)
 
-- [Result](https://nova-quiz-home.netlify.app/pages/result/result.html.html)
+- [Result](https://nova-quiz-home.netlify.app/pages/result/result.html)
 
 To look at the Live Pages of each screen visit [NovaQuiz](https://nova-quiz-home.netlify.app/) or click on above links.
 
