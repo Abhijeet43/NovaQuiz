@@ -57,7 +57,7 @@
 
 2.  Here you see the rules of the particular quiz.
 
-3.  Navigate to the Quiz using Next and Previous Links.
+3.  Navigate through different Questions using Next and Previous Links.
 
 4.  Each Quiz consist of a timer, the quiz must be submitted within that time period only.
 
