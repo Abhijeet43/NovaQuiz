@@ -14,7 +14,7 @@
 
 #### Questions Page:
 
-![Questions Page](/assets/images/questions.png)
+![Questions Page](/assets/images/questions.PNG)
 
 #### Result Page:
 
