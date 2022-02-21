@@ -2,9 +2,18 @@
 
 > NovaQuiz is a platform to test knowledge under different categories.
 
+## ScreenShots:
+
+Home Page:
 ![Home Page](/assets/images/landing-page.png)
+
+Rules Page:
 ![Rules Page](/assets/images/rules.png)
+
+Questions Page:
 ![Questions Page](/assets/images/questions.png)
+
+Result Page:
 ![Result Page](/assets/images/result.png)
 
 ---
